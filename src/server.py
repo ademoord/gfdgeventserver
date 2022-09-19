@@ -1,12 +1,12 @@
 '''
 
-@url: file:///192.168.1.50:/home/andromeda/Data/svn/gfd500/SW/trunk/simpleServer.py
+@url: file:///192.168.1.50:/home/andromeda/Data/svn/gfd500/SW/trunk/server.py
 @author: Andromeda
 @rev: 10
 @commitdate: 05-09-2014
 '''
 #!/usr/bin/env python
-# Simple Echo Server using Gevent SSL and StreamServer - simpleServer.py
+# Simple Echo Server using Gevent SSL and StreamServer - server.py
 
 from gevent.server import StreamServer
 import fdb
